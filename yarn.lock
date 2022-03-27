@@ -1990,6 +1990,83 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rabebbahry/react-horizontal-scrolling-menu@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@rabebbahry/react-horizontal-scrolling-menu@workspace:."
+  dependencies:
+    "@babel/core": ^7.14.6
+    "@babel/node": ^7.14.7
+    "@babel/plugin-transform-runtime": ^7.14.5
+    "@babel/preset-env": ^7.14.7
+    "@babel/preset-react": ^7.14.5
+    "@commitlint/cli": ^13.1.0
+    "@commitlint/config-conventional": ^13.1.0
+    "@rollup/plugin-commonjs": ^19.0.0
+    "@rollup/plugin-node-resolve": ^13.0.0
+    "@rollup/plugin-typescript": ^8.2.1
+    "@testing-library/jest-dom": ^5.12.0
+    "@testing-library/react": ^11.2.7
+    "@testing-library/react-hooks": ^7.0.2
+    "@types/babel__core": ^7
+    "@types/babel__plugin-transform-runtime": ^7
+    "@types/babel__preset-env": ^7
+    "@types/gh-pages": ^3
+    "@types/jest": ^26.0.23
+    "@types/react": ^17.0.9
+    "@types/react-dom": ^17.0.6
+    "@typescript-eslint/eslint-plugin": ^4.26.1
+    "@typescript-eslint/parser": ^4.26.1
+    babel-plugin-dynamic-import-node: ^2.3.3
+    babel-plugin-transform-react-remove-prop-types: ^0.4.24
+    browserslist: ^4.12.0
+    commitizen: ^4.2.4
+    css-loader: ^5.2.6
+    cypress: ^8.4.1
+    cz: ^1.8.2
+    cz-conventional-changelog: 3.3.0
+    eslint: ^7.27.0
+    eslint-config-prettier: ^8.3.0
+    eslint-plugin-cypress: ^2.11.3
+    eslint-plugin-disable: ^2.0.1
+    eslint-plugin-jest: ^23.20.0
+    eslint-plugin-jsx-a11y: ^6.3.1
+    eslint-plugin-prettier: ^3.4.0
+    eslint-plugin-radar: ^0.2.1
+    eslint-plugin-react: ^7.20.6
+    eslint-plugin-react-hooks: ^4.1.2
+    eslint-plugin-unicorn: ^32.0.1
+    gh-pages: ^3.2.3
+    husky: ^7.0.2
+    jest: ^27.0.1
+    jest-dev-server: ^4.4.0
+    lint-staged: ^10.2.2
+    node-sass: ^6.0.0
+    npm-run-all: ^4.1.5
+    postcss: ^8.3.0
+    prettier: ^2.3.0
+    prop-types: ^15.7.2
+    rollup: ^2.50.2
+    rollup-plugin-ignore: ^1.0.9
+    rollup-plugin-postcss: ^4.0.0
+    rollup-plugin-sourcemaps: ^0.6.3
+    rollup-plugin-terser: ^7.0.2
+    semver: ^7.3.2
+    smooth-scroll-into-view-if-needed: ^1.1.32
+    standard-version: ^9.3.1
+    style-loader: ^2.0.0
+    ts-jest: ^27.0.5
+    ts-loader: ^9.2.3
+    typescript: ^4.3.2
+    wait-on: ^6.0.0
+    webpack: ^5.40.0
+    webpack-cli: ^4.7.2
+    webpack-merge: ^5.8.0
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  languageName: unknown
+  linkType: soft
+
 "@rollup/plugin-commonjs@npm:^19.0.0":
   version: 19.0.1
   resolution: "@rollup/plugin-commonjs@npm:19.0.1"
@@ -10356,83 +10433,6 @@ __metadata:
   checksum: 8b5294dd14f8d13e430e0c15d7a8fa2eede0c4d59b499303a51645b2e29c00f1ab373de07431664fe64f08362fe2ee044757ffdbad60db1a84df151dd1d4ebaf
   languageName: node
   linkType: hard
-
-"react-horizontal-scrolling-menu@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-horizontal-scrolling-menu@workspace:."
-  dependencies:
-    "@babel/core": ^7.14.6
-    "@babel/node": ^7.14.7
-    "@babel/plugin-transform-runtime": ^7.14.5
-    "@babel/preset-env": ^7.14.7
-    "@babel/preset-react": ^7.14.5
-    "@commitlint/cli": ^13.1.0
-    "@commitlint/config-conventional": ^13.1.0
-    "@rollup/plugin-commonjs": ^19.0.0
-    "@rollup/plugin-node-resolve": ^13.0.0
-    "@rollup/plugin-typescript": ^8.2.1
-    "@testing-library/jest-dom": ^5.12.0
-    "@testing-library/react": ^11.2.7
-    "@testing-library/react-hooks": ^7.0.2
-    "@types/babel__core": ^7
-    "@types/babel__plugin-transform-runtime": ^7
-    "@types/babel__preset-env": ^7
-    "@types/gh-pages": ^3
-    "@types/jest": ^26.0.23
-    "@types/react": ^17.0.9
-    "@types/react-dom": ^17.0.6
-    "@typescript-eslint/eslint-plugin": ^4.26.1
-    "@typescript-eslint/parser": ^4.26.1
-    babel-plugin-dynamic-import-node: ^2.3.3
-    babel-plugin-transform-react-remove-prop-types: ^0.4.24
-    browserslist: ^4.12.0
-    commitizen: ^4.2.4
-    css-loader: ^5.2.6
-    cypress: ^8.4.1
-    cz: ^1.8.2
-    cz-conventional-changelog: 3.3.0
-    eslint: ^7.27.0
-    eslint-config-prettier: ^8.3.0
-    eslint-plugin-cypress: ^2.11.3
-    eslint-plugin-disable: ^2.0.1
-    eslint-plugin-jest: ^23.20.0
-    eslint-plugin-jsx-a11y: ^6.3.1
-    eslint-plugin-prettier: ^3.4.0
-    eslint-plugin-radar: ^0.2.1
-    eslint-plugin-react: ^7.20.6
-    eslint-plugin-react-hooks: ^4.1.2
-    eslint-plugin-unicorn: ^32.0.1
-    gh-pages: ^3.2.3
-    husky: ^7.0.2
-    jest: ^27.0.1
-    jest-dev-server: ^4.4.0
-    lint-staged: ^10.2.2
-    node-sass: ^6.0.0
-    npm-run-all: ^4.1.5
-    postcss: ^8.3.0
-    prettier: ^2.3.0
-    prop-types: ^15.7.2
-    rollup: ^2.50.2
-    rollup-plugin-ignore: ^1.0.9
-    rollup-plugin-postcss: ^4.0.0
-    rollup-plugin-sourcemaps: ^0.6.3
-    rollup-plugin-terser: ^7.0.2
-    semver: ^7.3.2
-    smooth-scroll-into-view-if-needed: ^1.1.32
-    standard-version: ^9.3.1
-    style-loader: ^2.0.0
-    ts-jest: ^27.0.5
-    ts-loader: ^9.2.3
-    typescript: ^4.3.2
-    wait-on: ^6.0.0
-    webpack: ^5.40.0
-    webpack-cli: ^4.7.2
-    webpack-merge: ^5.8.0
-  peerDependencies:
-    react: ">=16.8"
-    react-dom: ">=16.8"
-  languageName: unknown
-  linkType: soft
 
 "react-is@npm:^16.8.1":
   version: 16.13.1
