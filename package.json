@@ -161,7 +161,8 @@
     ]
   },
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "config": {
     "commitizen": {
