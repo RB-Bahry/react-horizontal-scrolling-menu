@@ -1,6 +1,6 @@
 {
   "name": "@rabebbahry/react-horizontal-scrolling-menu",
-  "version": "2.7.6",
+  "version": "2.7.7",
   "author": "asmyshlyaev177",
   "description": "Scrolling horizontal menu component for React, support mouse and touch devices.",
   "license": "ISC",
@@ -160,10 +160,6 @@
       "git add"
     ]
   },
-  "files": [
-    "dist",
-    "src"
-  ],
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
