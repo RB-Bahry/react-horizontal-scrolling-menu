@@ -4,27 +4,12 @@
   "author": "asmyshlyaev177",
   "description": "Scrolling horizontal menu component for React, support mouse and touch devices.",
   "license": "ISC",
-  "main": "index.tjs",
+  "main": "index.tsx",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/asmyshlyaev177/react-horizontal-scrolling-menu.git"
   },
-  "exports": {
-    ".": {
-      "browser": "./dist/index.umd.js",
-      "module": "./dist/index.esm.js",
-      "import": "./dist/index.esm.js",
-      "umd": "./dist/index.umd.js",
-      "require": "./dist/index.umd.js"
-    }
-  },
-  "typesVersions": {
-    "*": {
-      "*": [
-        "dist/types/"
-      ]
-    }
-  },
+  
   "scripts": {
     "test:unit": "jest",
     "test:e2e": "run-p -r demo:test cypress:run-with-wait",
@@ -32,7 +17,6 @@
     "cypress:run": "cypress run",
     "dev": "rollup -c rollup.config.js -w",
     "dev2": "webpack -w",
-    "build": "rm -rf dist && rollup -c rollup.config.js",
     "example": "cd example-nextjs && yarn dev",
     "example:test": "cd example-nextjs && NEXT_PUBLIC_IS_TEST=true yarn dev",
     "wait": "wait-on http://localhost:3003 && sleep 10",
@@ -43,8 +27,7 @@
    "setup-yarn": "yarn cache clean && yarn set version berry && sleep 5 && yarn plugin import typescript",
     "setup-husky": "husky install",
     "cz-install": "commitizen init cz-conventional-changelog --dev --exact --yarn",
-    "cz-husky-init": "husky add .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"'",
-    "deploy-gp": "babel-node deploy-gp.js"
+    "cz-husky-init": "husky add .husky/commit-msg 'npx --no-install commitlint --edit \"$1\"'"
   },
   "keywords": [
     "react",
